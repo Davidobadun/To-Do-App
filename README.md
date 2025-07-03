@@ -1,70 +1,86 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# React To-Do List App
 
-## Available Scripts
+This is a sleek and functional To-Do List web application built with **React**, allowing users to manage tasks with ease — from creation to completion and deletion. The app supports dynamic task editing and persistently stores data using **localStorage**.
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## Scope
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The goal of this application is to:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Build a production-quality React CRUD (Create, Read, Update, Delete) app.  
+- Practice state and effect management using `useState()` and `useEffect()`.  
+- Utilize browser `localStorage` to maintain data between sessions.  
+- Implement clean UI toggling between active and completed task views.  
+- Develop reusable logic for common task actions (edit, delete, complete).  
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Key Features
 
-### `npm run build`
+- **Add Tasks** – Users can add new tasks with a title and description.  
+- **Edit Tasks** – Tasks can be edited inline with update saving.  
+- **Mark as Complete** – Tasks can be marked complete and timestamped.  
+- **Toggle Task Views** – Switch between To-Do and Completed task views.  
+- **Delete Tasks** – Remove tasks from either list.  
+- **Local Storage Support** – Tasks are saved locally in the browser for persistence.  
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Tech Stack
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **React** – Frontend library  
+- **JavaScript** – App logic  
+- **CSS** – Styling the components  
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Getting Started
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+To run the app locally:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1. **Clone the repo**  
+   ```bash
+   git clone https://github.com/your-username/react-todo-list.git
+   ```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+2. **Navigate into the project folder**  
+   ```bash
+   cd react-todo-list
+   ```
 
-## Learn More
+3. **Install dependencies**  
+   ```bash
+   npm install
+   ```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+4. **Start the development server**  
+   ```bash
+   npm start
+   ```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Then open [http://localhost:3000](http://localhost:3000) in your browser.
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Learning Highlights
 
-### Analyzing the Bundle Size
+While building this app, the following React concepts and JavaScript techniques were explored:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- Functional components and React Hooks (`useState`, `useEffect`)  
+- Handling form input and controlled components  
+- Dynamic rendering based on app state  
+- Managing side effects and retrieving/saving data with `localStorage`  
+- Using `Date.now()` to generate unique task IDs  
+- Conditional rendering for edit vs. view modes  
+- Implementing full CRUD operations in React without a backend  
+- Writing clean, organized JSX code  
 
-### Making a Progressive Web App
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## About this Project
 
-### Advanced Configuration
+This React To-Do List app was bootstrapped with Create React App. For detailed documentation about the available scripts (npm start, npm test, npm run build, etc.) and advanced configuration, please refer to the Create React App documentation.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
